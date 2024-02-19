@@ -31,35 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "The Earth Swallows All",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "While fossil records provides glimpses of past extinctions, it doesn't tell us if any intelligent life forms existed during these events. The thought of advanced civilizations being completely erased from existence adds a layer of eeriness to the concept of mass extinctions.",
+    url: "",
   },
   {
     title: "Web Development for Beginners",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+      "A pretty decent start.",
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "My Resume Site",
+    title: "Gallopasamus",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Hippos can't swim. They run underwater and can hold their breath for upto 5 minutes.",
+    url: "https://www.nationalgeographic.com/animals/mammals/facts/hippopotamus#:~:text=Hippos%20cannot%20swim%20or%20breathe,see%20and%20breathe%20while%20underwater.",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Useless Fact",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "The first 7 days of the week are always the hardest.",
+    url: "",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Random Tidbits</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img

@@ -15,7 +15,7 @@ Neste repositório de modelo temos o ambiente de desenvolvimento e uma base de c
 
 Neste template de portfólio, você poderá "escolher sua própria aventura", temos um aplicativo web baseado em [React](https://reactjs.org/) pronto para você personalizar e implantar facilmente usando apenas seu navegador web.
 
-![Aplicativo web JavaScript de perfil](/__images__/js-portfolio-site.gif "Aplicativo web JavaScript de perfil")
+![Aplicativo web JavaScript de perfil](/__images__/js-Random-site.gif "Aplicativo web JavaScript de perfil")
 
 ### Guia rápido
 
@@ -132,7 +132,7 @@ Vá para os seguintes componentes para atualizar a linha `import image...` para 
       const imageAltText = "purple and blue abstract background";
    ```
 
-* `/src/Components/Portfolio.jsx` - Imagem destacada no lado esquerdo da seção (foto de mesa de design no exemplo)
+* `/src/Components/Random.jsx` - Imagem destacada no lado esquerdo da seção (foto de mesa de design no exemplo)
    ```javascript
       import image from "../images/design-desk.jpeg";
       const imageAltText = "desktop with books and laptop";
@@ -147,7 +147,7 @@ A seção "Sobre" ajuda a fornecer às pessoas um pouco mais de informações so
 
 A segunda seção a ser atualizada é a seção "Portfólio", onde você destaca os itens nos quais trabalhou. Estes seriam artigos, vídeos, designs de logo, projetos do GitHub, qualquer coisa que destaque você!
 
-Vá para `/src/Components/Portfolio.jsx` e localize a variável `projectList`. Este é um array de objetos em JavaScript. Cada item que você deseja destacar precisa: título, descrição e URL.
+Vá para `/src/Components/Random.jsx` e localize a variável `projectList`. Este é um array de objetos em JavaScript. Cada item que você deseja destacar precisa: título, descrição e URL.
 
 O exemplo tem 4, mas o número que você inclui depende de você.
 
@@ -334,7 +334,7 @@ As animações são uma maneira fácil de adicionar algum movimento aos elemento
       }
     }
     ``` 
-2. Com a sequência de animação definida, agora podemos dizer à nossa foto de mesa para se animar com nossa nova sequência de animação `slideIn`. Abra `Portfolio.jsx` e localize a tag `img`. Você verá que ele utiliza CSS embutido para definir seu estilo. Dentro de sua definição de estilo, adicione o seguinte:
+2. Com a sequência de animação definida, agora podemos dizer à nossa foto de mesa para se animar com nossa nova sequência de animação `slideIn`. Abra `Random.jsx` e localize a tag `img`. Você verá que ele utiliza CSS embutido para definir seu estilo. Dentro de sua definição de estilo, adicione o seguinte:
 
     ```css
     animation: "1s ease-out 0s 1 slideIn";

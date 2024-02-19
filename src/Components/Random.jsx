@@ -1,5 +1,5 @@
 /**
- * Portfolio component
+ * Random component
  *
  * Highlights some of  your creations. These can be designs, websites,
  * open source contributions, articles you've written and more.
@@ -56,9 +56,9 @@ const projectList = [
   },
 ];
 
-const Portfolio = () => {
+const Random = () => {
   return (
-    <section className="padding" id="portfolio">
+    <section className="padding" id="Random">
       <h2 style={{ textAlign: "center" }}>Random Tidbits</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
@@ -83,4 +83,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Random;

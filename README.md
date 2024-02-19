@@ -1,23 +1,23 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526682619)
 
-# JavaScript Portfolio Site with GitHub Codespaces and Copilot
+# JavaScript Random Site with GitHub Codespaces and Copilot
 
 > View these instructions in [Spanish](/translations/es/README.md) or [Portuguese](/translations/pt-BR/README.md)
 
-_Create, customize and deploy your own portfolio website in minutes._ ✨
+_Create, customize and deploy your own Random website in minutes._ ✨
 
 In this template repository we have the development environment and base set and ready to go. So that you can immediately launch your [Codespace](https://github.com/features/codespaces/) environment and start customizing your site using [Copilot](https://copilot.github.com) to help you write code faster. 
 
-* **Who is this for?** __Anyone__ looking to create a portfolio site, learn web development, or test out Codespaces.
+* **Who is this for?** __Anyone__ looking to create a Random site, learn web development, or test out Codespaces.
 * **How much experience do you need?** __Zero__. You decide how much you want to customize based on your experience, and time available.
 * **Tools needed:** _None_. No need to install anything! All you need is a web browser.
 * **Prerequisites:** _None_. This template includes your development environment and deployable web app for you to create your own site.
 
-## About this portfolio template
+## About this Random template
 
-In this "choose your own adventure" template portfolio, we have a [React](https://reactjs.org/) based web application ready for you to easily customize and deploy using only your web browser.
+In this "choose your own adventure" template Random, we have a [React](https://reactjs.org/) based web application ready for you to easily customize and deploy using only your web browser.
 
-![JavaScript profile web application](/__images__/js-portfolio-site.gif "JavaScript profile web application")
+![JavaScript profile web application](/__images__/js-Random-site.gif "JavaScript profile web application")
 
 ### Quick Start
 
@@ -28,7 +28,7 @@ In this "choose your own adventure" template portfolio, we have a [React](https:
 1. Enter a unique name for your new repository
 1. Click the **Code** button
 1. Click **Create Codespace on main** button
-1. [Customize your portfolio site](#-customize-your-site-in-3-steps) with Copilot 
+1. [Customize your Random site](#-customize-your-site-in-3-steps) with Copilot 
 1. [Deploy your site](#-deploy-your-web-application)
 
 <details>
@@ -39,16 +39,16 @@ In this "choose your own adventure" template portfolio, we have a [React](https:
 
 <br />
 
-## 🗃️ JavaScript Portfolio template
+## 🗃️ JavaScript Random template
 
-This repo is a GitHub template to build a JavaScript personal portfolio frontend web application using the React framework. The goal is to give you a template that you can immediately utilize to create your own website through Codespaces.
+This repo is a GitHub template to build a JavaScript personal Random frontend web application using the React framework. The goal is to give you a template that you can immediately utilize to create your own website through Codespaces.
 
 The repo contains the following:
 
 * `/.devcontainer`
   - `.devcontainer/Dockerfile`: Configuration file used by Codespaces to determine operating system and other details.
   - `.devcontainer/devcontainer.json`: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
-* `/src`: HTML, JS and CSS files used to build your portfolio site.
+* `/src`: HTML, JS and CSS files used to build your Random site.
 * `.eslintrc`: Settings for [ESLint](https://eslint.org/)</a> that is included for code consistency and quality.
 * `.prettierrc`: Settings for [Prettier](https://prettier.io/) that is used to format code.
 * `package.json` and `package-lock.json`: Defines the project information for [Node.js](https://nodejs.org/)</a>, dependent packages and the versions needed of each.
@@ -57,18 +57,18 @@ The repo contains the following:
 
 ## 🚀 Getting started
 
-This portfolio site project is filled with sample data so that you can immediately open Codespaces, see it running, and deploy at any point.
+This Random site project is filled with sample data so that you can immediately open Codespaces, see it running, and deploy at any point.
 
 Your development environment is all set for you to start. Based on our [JavaScript Codespace Template (React)](https://github.com/microsoft/codespaces-teaching-template-js), here is what is already setup and ready for you to use:
 
-* Simple [React](https://reactjs.org/) application with components for each section of the portfolio site
+* Simple [React](https://reactjs.org/) application with components for each section of the Random site
 * [Parcel](https://parceljs.org/) in place to build your site when deploying
 * Code linting and formatting using [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) for code consistency.
 
-### Create your portfolio
+### Create your Random
 
 1. Create a repository from this template. Use this [create repo link](https://github.com/microsoft/codespaces-project-template-js/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
-1. Before creating the Codespace, enable GitHub Copilot for your account. If it is not enabled, take a look at [Customize your portfolio site using Copilot](#-customize-your-site-in-3-steps).
+1. Before creating the Codespace, enable GitHub Copilot for your account. If it is not enabled, take a look at [Customize your Random site using Copilot](#-customize-your-site-in-3-steps).
 1. Navigate to the main page of the newly created repository.
 3. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
 
@@ -119,7 +119,7 @@ _Optional values_ are email address and social accounts. These are used in the `
 
 ### 2️⃣ Update images
 
-This portfolio site includes 3 images: top section background, "About me" background and portfolio section (desk). These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
+This Random site includes 3 images: top section background, "About me" background and Random section (desk). These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
 
 A couple possible sites to find photos are [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com). Photos, illustrations, vectors, your choice! When you find your images, save each one to `/src/images` with a short, meaningful file name.
 
@@ -135,7 +135,7 @@ Go to the following below components to update the `import image...` line to ref
       import image from "../images/mosaic.svg";
       const imageAltText = "purple and blue abstract background";
    ```
-* `/src/Components/Portfolio.jsx`- image highlighted in left hand side of section (design desk photo in sample)
+* `/src/Components/Random.jsx`- image highlighted in left hand side of section (design desk photo in sample)
    ```javascript
       import image from "../images/design-desk.jpeg";
       const imageAltText = "desktop with books and laptop";
@@ -148,9 +148,9 @@ The About section helps to give people a bit more information about your skills 
 * `description`: short sentence or two describing yourself, career goals, and/or passions
 * `detailOrQuote`: longer block for you to add more detail about yourself, or even a quote you like
 
-The second section to update is the Portfolio section, where you highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
+The second section to update is the Random section, where you highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
 
-Go to `/src/Components/Portfolio.jsx` to the `projectList` variable. This is a JavaScript array of objects. Each item you want to highlight needs: title, description, and URL.
+Go to `/src/Components/Random.jsx` to the `projectList` variable. This is a JavaScript array of objects. Each item you want to highlight needs: title, description, and URL.
 
 The sample design has 4, but the number you include is up to you.
 
@@ -215,12 +215,12 @@ With your project open in Codespaces:
 
 ### GitHub Pages
 
-[GitHub Pages](https://pages.github.com/) allows you to host websites directly from your GitHub repository. This project is already set up for you to get your portfolio deployed to GitHub pages with minimal steps.
+[GitHub Pages](https://pages.github.com/) allows you to host websites directly from your GitHub repository. This project is already set up for you to get your Random deployed to GitHub pages with minimal steps.
 
 With your project open in Codespaces:
 
 1. Open `package.json` and update the following values:
-    1. **homepage**: set to `http://{github-username}.github.io/{repo-name}`, where `github-username` is your GitHub username and `repo-name` is the what you named this portfolio repo when you created it
+    1. **homepage**: set to `http://{github-username}.github.io/{repo-name}`, where `github-username` is your GitHub username and `repo-name` is the what you named this Random repo when you created it
     1. **build-gh**: replace `github-username` with your GitHub username and `repo-name` with the repository name
 1. Commit and push those changes to `package.json` to your GitHub remote repo.
 1. Open a new terminal from the menu or by pressing `ctrl` + `shift` + ` (or open top left menu, select "Terminal" and "New Terminal")
@@ -235,7 +235,7 @@ With your project open in Codespaces:
 
 ## 🏆 Customizing with Copilot 
 
-Below are 4 additional ways you can continue to customize your Codespace and portfolio site. We'll show you how to use Copilot to make suggestions for faster development, and help you learn more HTML, CSS and JavaScript along the way.
+Below are 4 additional ways you can continue to customize your Codespace and Random site. We'll show you how to use Copilot to make suggestions for faster development, and help you learn more HTML, CSS and JavaScript along the way.
 
   1. [Customize your Codespace](#1-customize-your-codespace)
   1. [Update to smooth scroll to a section](#2-update-to-smooth-scroll-to-a-section)
@@ -294,7 +294,7 @@ In your site header you have links to each section below. Click one of these lin
 
 Let's make this a better user experience by slowing that down so the user has a sense of what is happening, and where they are navigating to on the page. 
 
-1. Open `styles.css`, which is the stylesheet for your portfolio application. We need to add a style for `html`. If you look, you'll see right now `html` and `body` styles are being set together, with no style set for `scroll-behavior`. Let's give Copilot a prompt to add this for us. 
+1. Open `styles.css`, which is the stylesheet for your Random application. We need to add a style for `html`. If you look, you'll see right now `html` and `body` styles are being set together, with no style set for `scroll-behavior`. Let's give Copilot a prompt to add this for us. 
 
 1. Below the `html` and `body` styling prompt Copilot with a comment of: 
 `/* add a smooth scroll */`
@@ -313,7 +313,7 @@ Your site should already be running in your Codespace, and the change will reloa
 
 ### 3. Animate desk photo
 
-Animations are a way you can easily add some motion to elements on your page to increase user interactivity and highlight items you want to make sure they notice. Let's animate the desk photo in the portfolio section. 
+Animations are a way you can easily add some motion to elements on your page to increase user interactivity and highlight items you want to make sure they notice. Let's animate the desk photo in the Random section. 
 
 1. Open your site's stylesheet, `styles.css` within your Codespace. Using Copilot, at the bottom of your `styles.css` prompt Copilot with the following comment: 
     ```css
@@ -331,7 +331,7 @@ Animations are a way you can easily add some motion to elements on your page to 
       }
     }
     ``` 
-1. With the animation sequenece defined, we can now tell our desk photo to animate itself with our new `slideIn` animation sequence. Open `Portfolio.jsx` and locate the `img` tag. You will see it utilizes inline CSS to set it's styling. Within it's style definition add the following:
+1. With the animation sequenece defined, we can now tell our desk photo to animate itself with our new `slideIn` animation sequence. Open `Random.jsx` and locate the `img` tag. You will see it utilizes inline CSS to set it's styling. Within it's style definition add the following:
     ```css
     animation: "1s ease-out 0s 1 slideIn";
     ```
@@ -357,9 +357,9 @@ _Hint_: In your `styles.css` file, use comments to start to tell Copilot what yo
 
 ### 4. Add a new section
 
-We started you off with a few basic sections for your portfolio site, but you have creative freedom to make it your own and add new sections relevant to what you want on your site.
+We started you off with a few basic sections for your Random site, but you have creative freedom to make it your own and add new sections relevant to what you want on your site.
 
-For an example, let's add an education section to your portfolio site. 
+For an example, let's add an education section to your Random site. 
 
 1. Create a new component for the section within the `Components` folder. Add a new file called `Education.jsx`.
 
@@ -395,7 +395,7 @@ For an example, let's add an education section to your portfolio site.
     <Education />
     ```
 
-In your Codespace, your portfolio application should be running and will reload your site with the changes. 
+In your Codespace, your Random application should be running and will reload your site with the changes. 
 
 -------
 ⭐ COPILOT BONUS ⭐ 

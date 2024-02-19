@@ -15,7 +15,7 @@ En esta plantilla tenemos el entorno de desarrollo y una base predeterminada lis
 
 En esta plantilla podrás "elegir tu propia aventura": tenemos una aplicación web basada en [React](https://reactjs.org/) lista para que puedas personalizarla e implementarla fácilmente utilizando solo tu navegador web.
 
-![Aplicación web de perfil JavaScript](/__images__/js-portfolio-site.gif "Aplicación web de perfil JavaScript")
+![Aplicación web de perfil JavaScript](/__images__/js-Random-site.gif "Aplicación web de perfil JavaScript")
 
 ### Inicio rápido
 
@@ -129,7 +129,7 @@ Ve a los siguientes componentes para actualizar la línea `import image...` haci
    ```javascript
       import image from "../images/mosaic.svg";
    ```
-* `Portfolio.jsx`- Imagen resaltada en el lado izquierdo de la sección (foto de escritorio de diseño en muestra)
+* `Random.jsx`- Imagen resaltada en el lado izquierdo de la sección (foto de escritorio de diseño en muestra)
    ```javascript
       import image from "../images/design-desk.jpeg";
    ```
@@ -143,7 +143,7 @@ La sección 'About' _(sobre mi)_ ayuda a dar a las personas un poco más de info
 
 La segunda sección que deberás actualizar es la sección del Portafolio, donde resaltarás los proyectos que realizaste. Pueden ser artículos, videos. diseño de logos, poyectos de GitHub, ¡todo lo que te haga resaltar!
 
-Ve a `/src/Components/Portfolio.jsx` a la variable `projectList`. Este es un arreglo de objetos de JavaScript. Cada cosa que quieras resaltar necesita: título, descripción y una URL.
+Ve a `/src/Components/Random.jsx` a la variable `projectList`. Este es un arreglo de objetos de JavaScript. Cada cosa que quieras resaltar necesita: título, descripción y una URL.
 
 Este ejemplo tiene 4, pero la cantidad que incluyas depende de ti.
 
@@ -321,7 +321,7 @@ Las animaciones son una forma de agregar fácilmente algo de movimiento a los el
       }
     }
     ```
-1. Ahora que hemos definido nuestra secuencia de animación `slideIn`, podemos decirle a nuestra foto de escritorio que se anime con esa secuencia. Abre `Portfolio.jsx` y busca la etiqueta `img`. Verás que utiliza inline CSS para establecer su estilo. Dentro de su definición de estilo, agrega lo siguiente:
+1. Ahora que hemos definido nuestra secuencia de animación `slideIn`, podemos decirle a nuestra foto de escritorio que se anime con esa secuencia. Abre `Random.jsx` y busca la etiqueta `img`. Verás que utiliza inline CSS para establecer su estilo. Dentro de su definición de estilo, agrega lo siguiente:
 
     ```css
     animation: "1s ease-out 0s 1 slideInLeft";
